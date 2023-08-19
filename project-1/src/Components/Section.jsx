@@ -18,15 +18,15 @@ const Section = () => {
                 simples and effective one.
               </p>
 
-              <button className="flex items-center bg-[#00A962] font-semibold p-1 px-3 rounded-sm mt-2  mx-5  md:mt-5 lg:mt-8 lg:mx-8 ">
+              <button className="flex items-center bg-[#00A962] font-semibold p-1 px-3 rounded-sm mt-2  gap-3 mx-5  md:mt-5 lg:mt-8 lg:mx-8 ">
                 Try for free <MdArrowForwardIos />
               </button>
             </div>
-            <div className="md:w-[50%]  lg:w-[40%] ">
+            <div className="md:w-[50%]  lg:w-[40%]  w-full">
               <img
                 src="/Assets/image 6.png"
                 alt="img"
-                className="max-w-full"
+                className="w-full object-fit  "
               />
             </div>
           </div>
