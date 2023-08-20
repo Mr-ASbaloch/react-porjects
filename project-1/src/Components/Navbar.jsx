@@ -9,13 +9,13 @@ const Navbar = () => {
     setNav(!nav);
   }
   return (
-    <div className=" flex justify-evenly md:flex mb-11">
+    <div className=" flex justify-between  md:justify-evenly md:flex mb-11">
       <div className="flex">
         <img
           src="/Assets/Healthy.png"
          
           alt="logo"
-          className="mt-3"
+          className="mt-3 w-[100px] h-[30px] md:w-full"
         />
        
       </div>
@@ -37,7 +37,7 @@ const Navbar = () => {
 
       {/* for mobile  */}
 
-      <div className="md:hidden">
+      <div className="md:hidden hidden">
         <div onClick={handleNav} >
           {!nav ? (
             <IoIosCloseCircleOutline
