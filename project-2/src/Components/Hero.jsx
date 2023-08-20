@@ -16,6 +16,7 @@ const Hero = () => {
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam Lorem ipsum dolor sit amet.
           </p>
+          
           <div className="flex mt-5  gap-2 md:mb-5 ">
             <div>
               <h1 className="flex items-center px-1 gap-3">
