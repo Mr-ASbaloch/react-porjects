@@ -5,6 +5,8 @@ import Hero from "./Components/Hero";
 import Frame from "./Components/Frame";
 import Store from "./Components/Store";
 import Offer from "./Components/Offer";
+import Footer from "./Components/Footer";
+import Client from "./Components/Client";
 
 function App() {
   return (
@@ -13,6 +15,8 @@ function App() {
       <Frame />
       <Store />
       <Offer />
+      <Client/>
+      <Footer/>
     </>
   );
 }
