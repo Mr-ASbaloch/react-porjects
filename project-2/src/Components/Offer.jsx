@@ -1,20 +1,20 @@
 import React from "react";
 import { TiTickOutline } from "react-icons/ti";
 
-const Hero = () => {
+const Offer = () => {
   return (
-    <div className="hero-main bg-[#0F124D] text-white  capitalize first-letter: pb-2 ">
-      <div className="md:flex md:px-[4%] md:pt-8">
-        <div className="text-start px-3 md:w-[60%]  md:mt-11 md:px-11">
+    <div>
+      <div className="md:flex  gap-11 md:mb-8 md:px-[4%] md:pt-8">
+        <div className="text-start px-3  md:w-[60%] lg:w-[45%]   md:mt-11 md:px-11">
+          <h1 className="text-[#F79E0E] text-3xl ">More we offer!</h1>
           <h1 className="text-2xl pt-4 font-bold  md:text-3xl  lg:text-4xl lg:font-semibold">
-            Let’s sky <span className="text-[#F79E0E]">rocket</span> your{" "}
-            <span className="text-[#F79E0E]">revenue</span>
+          Engaging video ads which will explode your <span className="text-[#F79E0E]">sales</span>
           </h1>
 
           <p className="pt-2 ">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam Lorem ipsum dolor sit amet.
+            There are enough stresses involved in running a successful ecommerce
+            site - the design and efficacy of your store shouldn't be one of
+            them
           </p>
           <div className="flex mt-5  gap-2 md:mb-5 ">
             <div>
@@ -56,11 +56,11 @@ const Hero = () => {
             Get Started
           </button>
         </div>
-        <div className="md:w-[40%]">
+        <div className=" md:w-[40%] lg:w-[40%]">
           <img
-            src="/Assets/surface1.png"
+            src="/Assets/Group 37178.png"
             alt="img"
-            className="px-5 pt-5  md:px-0 "
+            className=" pt-5 md:px-0  md:w-full md:h-full md:object-cover  lg:p-8"
           />
         </div>
       </div>
@@ -68,4 +68,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default Offer;
