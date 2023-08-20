@@ -53,7 +53,7 @@ const Hero = () => {
               </h1>
             </div>
           </div>
-          <button className="bg-[#F79E0E] text-white w-[150px] rounded-lg p-2 mt-5">
+          <button className="bg-[#F79E0E] text-white w-[150px] rounded-full hover:bg-[#0F124D] hover:text-[#F79E0E] p-2 mt-5">
             Get Started
           </button>
         </div>
