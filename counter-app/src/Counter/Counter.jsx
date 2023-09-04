@@ -5,6 +5,7 @@ const Counter = () => {
   const [number, setNumber] = useState(1);
   const increment =()=>{
     setNumber (number+ 1)
+   devtools : true
   }
   const decrement =()=>{
     setNumber (number- 1)
